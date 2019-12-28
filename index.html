@@ -1,1 +1,53 @@
-<h1> Hello world! </h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+
+        <title>For Kim</title>
+        
+        <!--Project for Kim.
+            This is definitely not secure by any means. I know this. 
+            The following script is meant to make the next page a surprise. I wanted to surprise Kim and make sure they couldn't access the site.
+            If you're reading this, bravo. You must really want to access this.-->
+
+        <script type="text/javascript">
+            function passWord() {
+            var count = 1;
+            var pass1 = prompt('Password:',' ');
+            //change to your password
+            var password = "thisisnotsecure"
+            //max attempts
+            var maxattempt = 4
+             
+            while (count < 4) {
+            if (!pass1)
+            history.go(-1);
+            if (pass1.toLowerCase() == password) {
+            alert('Testing');
+            window.open('preview.html');
+            break;
+            }
+            count+=1;
+            var pass1 =
+            prompt('Access Denied - Password Incorrect, Please Try Again.');
+            }
+             
+            if(count == maxattempt)
+            {
+            alert("Attempted 4 times")
+            }
+             
+            }
+            </SCRIPT>
+            <CENTER>
+            <FORM>
+            <input type="button" value="Enter Protected Area"  onClick="passWord()">
+            </FORM>
+            </CENTER></strong>
+    </head>
+    <body>
+        
+    </body>
+</html>
