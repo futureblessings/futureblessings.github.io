@@ -80,15 +80,15 @@
 }
 
 
-@keyframes titleAnimation { 
+/* @keyframes titleAnimation { 
     0% { opacity: 0 }
     8% { opacity: 1 }
     17% { opacity: 1 }
     19% { opacity: 0 }
     100% { opacity: 0 }
-}
+} 
 
 
 .no-cssanimations .cb-slideshow li span {
 	opacity: 1;
-}
+} */
