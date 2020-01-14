@@ -28,7 +28,7 @@
     background-repeat: no-repeat;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 1000s linear infinite 0s; 
+    animation: imageAnimation 42s linear infinite 0s; 
 }
 
 .slideshow li span p {
@@ -68,11 +68,6 @@
 .slideshow li:nth-child(7) span { 
     background-image: url("http://kimtran.art/images/slide7.png");
     animation-delay: 36s; 
-}
-
-.slideshow li:nth-child(8) span { 
-    background-image: url("http://kimtran.art/images/slide8.png");
-    animation-delay: 42s; 
 }
 
 
