@@ -43,30 +43,30 @@
   }
 
 .slideshow li:nth-child(1) span { 
-    background-image: url("/images/slide1"); 
+    background-image: url("/images/slide1.png"); 
 }
 .slideshow li:nth-child(2) span { 
-    background-image: url("/images/slide2");
+    background-image: url("/images/slide2.png");
     animation-delay: 6s; 
 }
 .slideshow li:nth-child(3) span { 
-    background-image: url("/images/slide3");
+    background-image: url("/images/slide3.png");
     animation-delay: 12s; 
 }
 .slideshow li:nth-child(4) span { 
-    background-image: url("/images/slide4");   
+    background-image: url("/images/slide4.png");   
     animation-delay: 18s; 
 }
 .slideshow li:nth-child(5) span { 
-    background-image: url("/images/slide5");
+    background-image: url("/images/slide5.png");
     animation-delay: 24s; 
 }
 .slideshow li:nth-child(6) span { 
-    background-image: url("/images/slide6");
+    background-image: url("/images/slide6.png");
     animation-delay: 30s; 
 }
 .slideshow li:nth-child(7) span { 
-    background-image: url("/images/slide7");
+    background-image: url("/images/slide7.png");
     animation-delay: 36s; 
 }
 
