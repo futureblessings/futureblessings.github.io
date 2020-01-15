@@ -8,7 +8,7 @@ body {
   background-image: url("/images/starsbg.jpg");
   overflow: hidden;
   margin: 0;
-} /* was html, body */
+}
 
 .starwars section {
   position: absolute;
