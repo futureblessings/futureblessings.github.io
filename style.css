@@ -10,6 +10,26 @@ body {
   margin: 0;
 }
 
+.gifts {
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 400px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.gifts:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columns {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
 .starwars section {
   position: absolute;
   top: 45%;
